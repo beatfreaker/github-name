@@ -8,7 +8,7 @@ module.exports = function (userName, callback) {
 	got('https://api.github.com/users/' + userName.toLowerCase(), function (err, data) {
 		if (err) {
 			if (err.statusCode === 404) {
-				callback(null, true)
+				callback(null, true);
 				return;
 			}
 			callback(err);
