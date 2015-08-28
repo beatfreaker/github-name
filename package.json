@@ -1,0 +1,46 @@
+{
+  "name": "github-name",
+  "version": "1.0.0",
+  "description": "Check whether username is available on GitHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "bin": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatfreaker/github-name.git"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "git",
+    "github",
+    "username",
+    "available",
+    "availability",
+    "check",
+    "name"
+  ],
+  "author": {
+    "name": "Chintan Radia",
+    "email": "radiachints1512@gmail.com",
+    "url": "https://beatfreaker.github.io/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beatfreaker/github-name/issues"
+  },
+  "homepage": "https://github.com/beatfreaker/github-name#readme",
+  "devDependencies": {
+    "tape": "^4.2.0",
+    "xo": "^0.7.1"
+  },
+  "dependencies": {
+    "got": "^4.1.1",
+    "log-symbols": "^1.0.2",
+    "meow": "^3.3.0"
+  }
+}
